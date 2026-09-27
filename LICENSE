@@ -6,33 +6,66 @@ licence, whose full text follows this notice.
 
 The grant covers only what this project authored: the terrain meshes and the way
 they are cut and arranged, the textures painted for the map, the tree and
-building placements, the road ribbons as they are meshed and drawn, the manifest,
-and the map as a whole. Credit it as
+building placements, the road ribbons, bridges and tunnels as they are meshed
+and drawn, the airfields as they are meshed and placed, the lake surfaces, the
+manifest, and the map as a whole. Credit it as
 
     "Swiss Alps for Nuclear Option" by BatongMaster, CC BY 4.0
+
+with a link to the licence, https://creativecommons.org/licenses/by/4.0/, and to
+the map, https://github.com/BatongMaster/NOSwissAlps.
 
 The grant does not cover, and cannot relicense, the data the map was built from:
 
   * The terrain is derived from the Copernicus DEM GLO-30. Its licence asks for
-    notices and conditions that travel with every copy of this map, including a
-    liability statement, a no-endorsement statement, and the duty to bind anyone
-    you pass the map on to the same obligations. See NOTICE.md.
+    notices and conditions that travel with every copy of this map: its
+    attribution notice, a liability sentence it dictates, and not giving the
+    public the impression that your activities, what you do with this map
+    among them, are officially endorsed by Airbus Defence and Space (the
+    data's provider), the Copernicus licensor, or anyone else in charge of
+    Copernicus or of delivering its data. The author, who got the data from
+    the Copernicus licensor, lets you pass the map on, its Copernicus-derived
+    data included, and the Copernicus licence has the author make sure you are
+    bound by those same obligations. See NOTICE.md.
 
-  * The road network is derived from swissTLMRegio, published by the Federal
-    Office of Topography swisstopo as open government data. Its terms are short:
-    the data may be used, passed on and adapted, including commercially, as long
-    as the source is named. Naming it is all that is asked of you. See NOTICE.md.
+  * The road network is derived from swissTLMRegio and the airfields' paving
+    from swissTLM3D, both published by the Federal Office of Topography
+    swisstopo as open government data. Their terms are short: the data may be
+    used, passed on and adapted, including commercially, as long as the source
+    is named, and the general terms of the Federal Spatial Data Infrastructure,
+    which they bring in, have whoever obtained the data publish what they made
+    from it under their own name, which is why this map is published under its
+    author's. See NOTICE.md.
 
-  * Nuclear Option and everything in it belongs to Shockfront Studios. No file of
-    the game is part of this distribution; the map is an unofficial mod and is
-    not affiliated with or endorsed by Shockfront Studios. Its end-user licence
-    agreement independently forbids selling or monetising a mod. That is not a
-    term added here, since CC BY 4.0 does not let a licensor add terms, but it
-    binds whoever uses this map with the game, and it is why the map is given
-    away.
+  * No file of Nuclear Option is part of this distribution. The game's end-user
+    licence agreement, in the version that takes effect on 1 January 2027 or on
+    downloading or launching version 0.35 of the game, a beta or public-test
+    branch of it included, if that comes first, requires any mod that uses the
+    game's assets, code or trademarks to display this prominently:
 
-Whoever redistributes this map, or anything made from it, carries NOTICE.md with
-it. The Copernicus licence makes that a condition rather than a courtesy.
+        This project is an unofficial community modification and is not
+        affiliated with, sponsored by, or endorsed by Shockfront Studios Pty
+        Ltd. Original Nuclear Option assets, vehicle designs, audio, and code
+        are Copyright (c) 2026 Shockfront Studios Pty Ltd. All rights reserved.
+        Nuclear Option and Shockfront Studios are trademarks or registered
+        trademarks of Shockfront Studios Pty Ltd. Original mod content and all
+        other trademarks belong to their respective owners.
+
+    The same agreement forbids selling or monetising a mod. That is not a term
+    of this licence, since CC BY 4.0 keeps any other arrangement separate from
+    and independent of its own terms, but from then it binds everyone bound by
+    that agreement, anyone who downloads, installs, copies or plays the game,
+    and it is why the map is given away.
+
+Whoever redistributes this map, or anything made from it that still holds data
+derived from the Copernicus DEM, or shows it to the public, has to give the
+Copernicus notice and liability sentence with it; NOTICE.md carries both, so
+pass it on with the map. The Copernicus licence has this project, which got the
+data from its Licensor, make sure that everyone it lets distribute the map or
+show it to the public is bound by the obligations listed above (its notice, its
+liability sentence and not implying endorsement), and this project lets
+everyone who receives the map do so; NOTICE.md is how the obligations reach
+them.
 
 =======================================================================
 
