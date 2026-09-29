@@ -45,10 +45,19 @@ for them: this is the Alps, and most of it is not flat.
 
 ## Installing
 
+### NOMM
+
+1. Search on NOMM for "Swiss Alps" and download it (it will take a while don't worry, it's a 1.3 GB download)
+2. Start the game. 'BepInEx/LogOutput.log' should show 'v1.2.1 ready.' and a line like
+'swissalps-0.3.0.nomap -> cm.swissalps.aeb19792 ("Swiss Alps", 199680x199680 m)'.
+
+###  How to install manually (if you don't use NOMM)
+
 1. Download `swissalps-0.3.0.nomap` from this repository's releases. It is about 1.3 GB.
-2. Copy it into `BepInEx/plugins/NOCustomMaps/maps/` under your Nuclear Option installation.
+2. Create a folder named `NOCustomMaps` in `BepInEx/plugins/`
+3. Copy the map (.nomap) into `BepInEx/plugins/NOCustomMaps/maps/` under your Nuclear Option installation.
    (`CustomMaps/` under the game's persistent data path works too; the plugin looks in both.)
-3. Start the game once and look in `BepInEx/LogOutput.log` for the line the plugin prints when it
+4. Start the game once and look in `BepInEx/LogOutput.log` for the line the plugin prints when it
    registers the map:
 
    ```
@@ -57,12 +66,20 @@ for them: this is the Alps, and most of it is not flat.
 
    The `cm.swissalps.<hash8>` name is how missions refer to the map. The eight hex digits are the
    start of the bundle's SHA-256, so they identify this exact build.
-4. In a mission, set `MapKey.Path` to that name and `MapKey.Type` to `GameWorldPrefab`. Missions
+5. In a mission, set `MapKey.Path` to that name and `MapKey.Type` to `GameWorldPrefab`. Missions
    live in `%USERPROFILE%\AppData\LocalLow\Shockfront\NuclearOption\Missions\<name>\<name>.json`.
 
 **Multiplayer:** the server and every client need the identical `.nomap` file. The hash in the
 registered name is the version handshake - a client with a different build of the map fails to
 match and is told so at join time, instead of silently disagreeing about where the ground is.
+
+## How to copy and edit the mission
+
+1. Subscribe to the mission on the Steam Workshop
+2. Go into the folder that contains the mission from the workshop  "C:\Program Files (x86)\Steam\steamapps\workshop\content\2168680\3809262920" and copy all the contents.
+3. Then go into "C:\Users[YOUR LOCAL USER]\AppData\LocalLow\Shockfront\NuclearOption\Missions" and create a folder with the name of your mission and paste everything in it.
+4. Rename the "Swiss Alps Free Flight.json" file to the same name you have given your folder (this is important).
+5. Now you should be able to see it in the user section in the mission editor!
 
 ## Licence and credits
 
