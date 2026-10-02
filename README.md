@@ -75,7 +75,7 @@ match and is told so at join time, instead of silently disagreeing about where t
 
 ## How to copy and edit the mission
 
-1. Subscribe to the mission on the Steam Workshop
+1. Subscribe to the "Swiss Alps Free Flight" mission on the Steam Workshop : https://steamcommunity.com/sharedfiles/filedetails/?id=3809262920
 2. Go into the folder that contains the mission from the workshop  "C:\Program Files (x86)\Steam\steamapps\workshop\content\2168680\3809262920" and copy all the contents.
 3. Then go into "C:\Users[YOUR LOCAL USER]\AppData\LocalLow\Shockfront\NuclearOption\Missions" and create a folder with the name of your mission and paste everything in it.
 4. Rename the "Swiss Alps Free Flight.json" file to the same name you have given your folder (this is important).
